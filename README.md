@@ -17,3 +17,5 @@ Les composants:
 - 8x connecteurs jst 2.54mm de 6 broches (pour capteurs tof {laser de distance} et ventiateurs) //peuvent êtres remplacés par des connecteurs jst 2.54mm de 4 broches si soudés complètement à droite.
 
 Les connexions :
+
+Les deux aduinos sont connectéees à l'ESP Wroom en spi via des levels siffters
