@@ -18,4 +18,4 @@ Les composants:
 
 Les connexions :
 
-Les deux aduinos sont connectéees à l'ESP Wroom en spi via des levels siffters () elles 9't chacunes des cnc shield v3 avec 4 drivers A4988. sur la deuxième il y a 2 ther
+Les deux aduinos sont connectéees à l'ESP Wroom en spi via des levels siffters () elles 9't chacunes des cnc shield v3 avec 4 drivers A4988. sur la première il y a 2 thermistaances (100kohm) sur les broches A3 et A4. sur la deuxième il y a sur la broche digitale 9 7 led ws2812b avec un resistance de 330ohm pour les données. 
