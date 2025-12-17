@@ -3,7 +3,7 @@ Ce fichier résume les connexions et composants présents sur le pcb du  robot.
 Les composants:
 
 - 2x PCF8574T (expandeur i²C)
-- 2x (levels shiffters)
+- 2x 74LVC8T245 (levels shiffters)
 - 2x ADS1115 (lecteurs analogiques i²C en 16 bits)
 - 1x TCA (switch i²C)
 - 7x WS2812B (leds adressables / neopixels)
@@ -18,4 +18,6 @@ Les composants:
 
 Les connexions :
 
-Les deux aduinos sont connectéees à l'ESP Wroom en spi via des levels siffters () elles 9't chacunes des cnc shield v3 avec 4 drivers A4988. sur la première il y a 2 thermistaances (100kohm) sur les broches A3 et A4. sur la deuxième il y a sur la broche digitale 9 7 led ws2812b avec un resistance de 330ohm pour les données. 
+Les deux aduinos sont connectéees à l'ESP Wroom en spi via des levels siffters (74LVC8T245) elles ont chacunes des cnc shield v3 avec 4 drivers A4988. 
+sur la première il y a 2 thermistaances (100kohm) sur les broches A3 et A4. 
+sur la deuxième il y a sur la broche digitale 9 7 led ws2812b avec un resistance de 330ohm pour les données. 
